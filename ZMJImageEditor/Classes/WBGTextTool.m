@@ -327,9 +327,9 @@ static const NSInteger kTextMaxLimitNumber = 100;
     self = [super initWithFrame:frame];
     if (self) {
         self.items = [NSArray arrayWithObjects:
-                      [[UIBarButtonItem alloc]initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:self action:@selector(cancelPad)],
+                      [[UIBarButtonItem alloc]initWithTitle:@"cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelPad)],
                       [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil],
-                      [[UIBarButtonItem alloc]initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(donePad)],
+                      [[UIBarButtonItem alloc]initWithTitle:@"done" style:UIBarButtonItemStyleDone target:self action:@selector(donePad)],
                       nil];
     }
     return self;
