@@ -47,7 +47,7 @@
     _toolView = toolView;
 
     CGFloat btnW = WIDTH / 3.0;
-    NSArray *arr = @[@"返回",@"撤销",@"完成"];
+    NSArray *arr = @[@"cancel",@"reset",@"done"];
     for (int i = 0; i < arr.count; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(btnW * i, 0, btnW, 49);
