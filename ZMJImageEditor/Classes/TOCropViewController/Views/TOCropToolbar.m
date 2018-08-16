@@ -131,7 +131,7 @@
     _resetButton = [UIButton buttonWithType:UIButtonTypeSystem];
     _resetButton.contentMode = UIViewContentModeCenter;
     _resetButton.enabled = NO;
-    [_resetButton setTitle:@"还原" forState:UIControlStateNormal];
+    [_resetButton setTitle:@"reset" forState:UIControlStateNormal];
     [_resetButton setTitleColor:[UIColor colorWithHexString:@"289BF0"] forState:UIControlStateNormal];
     [_resetButton setTitleColor:[UIColor lightTextColor] forState:UIControlStateDisabled];
     [_resetButton addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
